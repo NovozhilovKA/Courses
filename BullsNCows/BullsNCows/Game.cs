@@ -3,13 +3,13 @@ namespace BullsNCows
 {
     public static class Game
     {
-        static private BotGuess player;
+        static private Player player;
         static private Bot bot;
         static private Guess guess;
         static private bool win;
         public static void Start()
         {
-            player = new BotGuess();
+            player = new Player();
             bot = new Bot();
             Console.WriteLine("Starting game");
             while (Process())
@@ -25,8 +25,6 @@ namespace BullsNCows
             {
                 player.Guess(out guess);
                 win = bot.Process(ref guess);
-                player.PrevGuess = player.CurrGuess;
-                player.CurrGuess = guess;
                 Console.WriteLine(string.Format("{0} bulls and {1} cows", guess.Bulls, guess.Cows));
             } while (!win);
             return player.Continue();

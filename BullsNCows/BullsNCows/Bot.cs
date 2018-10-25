@@ -6,7 +6,6 @@ namespace BullsNCows
         private string number;
         public Bot()
         {
-            rand = new Random();
             this.Reset();
         }
 

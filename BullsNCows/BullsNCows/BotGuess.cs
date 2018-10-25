@@ -25,7 +25,7 @@ namespace BullsNCows
             NumOfGuesses = 0;
             position = 0;
         }
-        public override void Guess(out Guess outGuess)
+        /*public override void Guess(out Guess outGuess)
         {
             if (NumOfGuesses == 0)
             {
@@ -65,6 +65,6 @@ namespace BullsNCows
 
 
 
-        }
+        }*/
     }
 }

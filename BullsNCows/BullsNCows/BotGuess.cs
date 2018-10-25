@@ -10,9 +10,11 @@ namespace BullsNCows
         private ArrayList arrayList = new ArrayList();
         private ArrayList numbers;
         #endregion
+        #region properties
         public Guess PrevGuess { get; set; }
         public Guess CurrGuess { get; set; }
         public int NumOfGuesses { get; set; }
+        #endregion
         public BotGuess()
         {
             CurrGuess = new Guess();

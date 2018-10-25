@@ -1,0 +1,6 @@
+/Users/kostyansa/Projects/StudentGroup/StudentGroup/obj/x86/Debug/StudentGroup.csprojResolveAssemblyReference.cache
+/Users/kostyansa/Projects/StudentGroup/StudentGroup/obj/x86/Debug/StudentGroup.csproj.CoreCompileInputs.cache
+/Users/kostyansa/Projects/StudentGroup/StudentGroup/bin/Debug/StudentGroup.exe
+/Users/kostyansa/Projects/StudentGroup/StudentGroup/bin/Debug/StudentGroup.pdb
+/Users/kostyansa/Projects/StudentGroup/StudentGroup/obj/x86/Debug/StudentGroup.exe
+/Users/kostyansa/Projects/StudentGroup/StudentGroup/obj/x86/Debug/StudentGroup.pdb

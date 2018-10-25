@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{24CD7227-8F67-43E2-B026-C9E03B4B5DF4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentGroup/Classes/Student Group.cs">
+    <Files>
+      <File FileName="StudentGroup/Program.cs" Line="8" Column="10" />
+      <File FileName="StudentGroup/Classes/Student.cs" Line="5" Column="6" />
+      <File FileName="StudentGroup/Classes/Student Group.cs" Line="15" Column="25" />
+      <File FileName="StudentGroup/Classes/Person.cs" Line="6" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StudentGroup PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

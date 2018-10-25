@@ -1,0 +1,6 @@
+/Users/kostyansa/Projects/BullsNCows/BullsNCows/bin/Debug/BullsNCows.exe
+/Users/kostyansa/Projects/BullsNCows/BullsNCows/bin/Debug/BullsNCows.pdb
+/Users/kostyansa/Projects/BullsNCows/BullsNCows/obj/x86/Debug/BullsNCows.csprojResolveAssemblyReference.cache
+/Users/kostyansa/Projects/BullsNCows/BullsNCows/obj/x86/Debug/BullsNCows.csproj.CoreCompileInputs.cache
+/Users/kostyansa/Projects/BullsNCows/BullsNCows/obj/x86/Debug/BullsNCows.exe
+/Users/kostyansa/Projects/BullsNCows/BullsNCows/obj/x86/Debug/BullsNCows.pdb

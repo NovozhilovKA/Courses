@@ -6,7 +6,8 @@ namespace BatlleShips
     {
         public static void Main(string[] args)
         {
-            
+            var Game = new Master();
+            Game.Start();
         }
     }
 }

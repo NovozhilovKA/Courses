@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 using BatlleShips.Game;
 using BatlleShips.Game.Ships;
 namespace BatlleShips
@@ -12,6 +13,7 @@ namespace BatlleShips
 #endregion
         public Master()
         {
+            Constants.STARTING_SHIPS = new List<Ship>();
             for (int i = 0; i < Ship1.numberOfShips; i++)
             {
                 Constants.STARTING_SHIPS.Add(new Ship1());
@@ -49,6 +51,14 @@ namespace BatlleShips
                     Player1.DrawBoard();
                     shot = Player1.MakeAShot();
                     hit = Player2.Hit(shot);
+                    if(hit)
+                    {
+                        Player1.SetHit(shot);
+                    }
+                    else
+                    {
+                        Player1.SetMiss(shot);
+                    }
                 }while(hit);
                 Console.Clear();
                 do
@@ -56,6 +66,14 @@ namespace BatlleShips
                     Player2.DrawBoard();
                     shot = Player1.MakeAShot();
                     hit = Player2.Hit(shot);
+                    if (hit)
+                    {
+                        Player2.SetHit(shot);
+                    }
+                    else
+                    {
+                        Player2.SetMiss(shot);
+                    }
                 } while (hit);
 
             } while (!(Player1.Lose() || Player2.Lose()));

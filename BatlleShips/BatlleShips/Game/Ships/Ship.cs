@@ -13,6 +13,10 @@ namespace BatlleShips.Game
         {
             hp--;
         }
+        public virtual int GetHP()
+        {
+            return hp;
+        }
         public virtual bool IsRuined()
         {
             return (hp == 0);

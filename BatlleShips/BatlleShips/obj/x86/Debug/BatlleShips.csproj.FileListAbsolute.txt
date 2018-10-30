@@ -1,0 +1,6 @@
+/work/C#/Courses/BatlleShips/BatlleShips/bin/Debug/BatlleShips.exe
+/work/C#/Courses/BatlleShips/BatlleShips/bin/Debug/BatlleShips.pdb
+/work/C#/Courses/BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.csprojResolveAssemblyReference.cache
+/work/C#/Courses/BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.csproj.CoreCompileInputs.cache
+/work/C#/Courses/BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.exe
+/work/C#/Courses/BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.pdb

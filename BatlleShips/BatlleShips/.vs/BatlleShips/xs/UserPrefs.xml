@@ -1,23 +1,24 @@
 ﻿<Properties StartupConfiguration="{C8481381-1ABA-4BEF-8958-F1F3BCAFCD01}|Default">
   <MonoDevelop.Ide.ItemProperties.BatlleShips PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ship1/Ship1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DefaultShips/Ship2.cs">
     <Files>
       <File FileName="Game/Attributes/EmptyClass.cs" Line="1" Column="1" />
       <File FileName="Game/Attributes/ShipAttribute.cs" Line="2" Column="27" />
-      <File FileName="Game/Ships/Ship.cs" Line="26" Column="38" />
+      <File FileName="Game/Ships/Ship.cs" Line="9" Column="21" />
       <File FileName="Game/Map.cs" Line="36" Column="35" />
       <File FileName="Game/Player.cs" Line="1" Column="1" />
       <File FileName="Game/Master.cs" Line="1" Column="14" />
-      <File FileName="Game/Constants.cs" Line="27" Column="18" />
+      <File FileName="Game/Constants.cs" Line="28" Column="14" />
       <File FileName="Game/Bot.cs" Line="1" Column="1" />
-      <File FileName="Ship1/Ship1.cs" Line="1" Column="1" />
+      <File FileName="DefaultShips/Ship1.cs" Line="8" Column="30" />
+      <File FileName="DefaultShips/Ship2.cs" Line="4" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DefaultShips FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Ship1 FirstBuild="True" />
 </Properties>

@@ -22,3 +22,10 @@ BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.csproj.FileListAbsolute.txt
 BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.csproj.FileListAbsolute.txt
 BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.csproj.FileListAbsolute.txt
 BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.csproj.FileListAbsolute.txt
+BatlleShips/BatlleShips/bin/Debug/Plugins/DefaultShips.dll
+*.dll
+BatlleShips/BatlleShips/DefaultShips/obj/Debug/DefaultShips.csproj.FileListAbsolute.txt
+BatlleShips/BatlleShips/obj/x86/Debug/BatlleShips.csproj.FileListAbsolute.txt
+BatlleShips/BatlleShips/DefaultShips/obj/Debug/DefaultShips.csproj.CopyComplete
+BatlleShips/BatlleShips/.vs/BatlleShips/xs/UserPrefs.xml
+BatlleShips/BatlleShips/bin/Debug/.DS_Store

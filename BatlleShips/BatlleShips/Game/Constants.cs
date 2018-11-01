@@ -19,6 +19,13 @@ namespace BatlleShips.Game
                 var asm = Assembly.LoadFile(path);
                 SHIPS.AddRange(CollectTypes<Ship, ShipAttribute>(asm));
             }
+            foreach(var shipType in SHIPS)
+            {
+                for (int i = 0; i < shipType.numberOfShips; i++)
+                {
+                    STARTING_SHIPS.Add(shipType.Clone());
+                }
+            }
         }
 
         public static List<T> CollectTypes<T,TA>(Assembly asm)

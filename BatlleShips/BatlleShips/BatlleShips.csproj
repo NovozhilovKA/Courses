@@ -33,20 +33,18 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Game\Ships\Ship1.cs" />
     <Compile Include="Game\Ships\Ship.cs" />
     <Compile Include="Game\Bot.cs" />
     <Compile Include="Game\Map.cs" />
     <Compile Include="Game\Master.cs" />
     <Compile Include="Game\Player.cs" />
     <Compile Include="Game\Constants.cs" />
-    <Compile Include="Game\Ships\Ship2.cs" />
-    <Compile Include="Game\Ships\Ship3.cs" />
-    <Compile Include="Game\Ships\Ship4.cs" />
+    <Compile Include="Game\Attributes\ShipAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Game\" />
     <Folder Include="Game\Ships\" />
+    <Folder Include="Game\Attributes\" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

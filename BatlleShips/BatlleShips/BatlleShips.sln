@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatlleShips", "BatlleShips.csproj", "{C8481381-1ABA-4BEF-8958-F1F3BCAFCD01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ship1", "Ship1\Ship1.csproj", "{58F7BBE4-7365-4CDD-B9B9-FA6CE8DDC46A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{C8481381-1ABA-4BEF-8958-F1F3BCAFCD01}.Debug|x86.Build.0 = Debug|x86
 		{C8481381-1ABA-4BEF-8958-F1F3BCAFCD01}.Release|x86.ActiveCfg = Release|x86
 		{C8481381-1ABA-4BEF-8958-F1F3BCAFCD01}.Release|x86.Build.0 = Release|x86
+		{58F7BBE4-7365-4CDD-B9B9-FA6CE8DDC46A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58F7BBE4-7365-4CDD-B9B9-FA6CE8DDC46A}.Debug|x86.Build.0 = Debug|Any CPU
+		{58F7BBE4-7365-4CDD-B9B9-FA6CE8DDC46A}.Release|x86.ActiveCfg = Release|Any CPU
+		{58F7BBE4-7365-4CDD-B9B9-FA6CE8DDC46A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

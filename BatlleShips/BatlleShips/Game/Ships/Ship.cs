@@ -1,13 +1,13 @@
 ﻿using System;
 namespace BatlleShips.Game
 {
+    [Ship]
     public abstract class Ship
     {
-        private int hp;
-        public const int numberOfShips = 1;
-        public Ship(int hp)
+        protected int hp;
+        public abstract int numberOfShips{ get;}
+        public Ship()
         {
-            this.hp = hp;
         }
         public virtual void Hit()
         {
@@ -21,5 +21,7 @@ namespace BatlleShips.Game
         {
             return (hp == 0);
         }
+
+        public abstract Ship Clone();
     }
 }

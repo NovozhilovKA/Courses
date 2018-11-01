@@ -1,8 +1,5 @@
 ﻿using System;
-using System.IO;
-using System.Collections.Generic;
 using BatlleShips.Game;
-using BatlleShips.Game.Ships;
 namespace BatlleShips
 {
     public class Master
@@ -13,26 +10,7 @@ namespace BatlleShips
 #endregion
         public Master()
         {
-            Constants.STARTING_SHIPS = new List<Ship>();
-            for (int i = 0; i < Ship1.numberOfShips; i++)
-            {
-                Constants.STARTING_SHIPS.Add(new Ship1());
-            }
-
-            for (int i = 0; i < Ship2.numberOfShips; i++)
-            {
-                Constants.STARTING_SHIPS.Add(new Ship2());
-            }
-
-            for (int i = 0; i < Ship3.numberOfShips; i++)
-            {
-                Constants.STARTING_SHIPS.Add(new Ship3());
-            }
-
-            for (int i = 0; i < Ship4.numberOfShips; i++)
-            {
-                Constants.STARTING_SHIPS.Add(new Ship4());
-            }
+            Constants.InitShips();
 
             Player1 = new Player();
             Player2 = new Player();
